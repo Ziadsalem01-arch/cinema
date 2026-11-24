@@ -1,0 +1,17 @@
+name = "cinema"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cinema-db"
+database_id = "5457fa80-a8e4-4ecf-acf4-46040359b6ad"
+
+[vars]
+SECRET = "IMGa2LqzVhRMQ-GjCI7irlrRBP1BnZEUSoqFAVXt8dEJvDu2OmszLcQY0liZeL4i"
+ADMIN_PASS = "VQWV1DUGXHyN"
